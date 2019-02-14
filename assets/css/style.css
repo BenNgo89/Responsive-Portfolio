@@ -1,0 +1,216 @@
+
+
+/* Style for Index.html */
+
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Arial', serif;
+    background-image: url("../images/background.png");
+      
+    
+}
+
+.nav{
+    background-color: white;
+    color: darkgray;
+    list-style: none;
+    text-align: right;
+    padding: 20px ;
+   
+    border-bottom:2px solid darkgray;
+
+    
+    margin: 0 auto;
+    background: whitesmoke;
+   
+    display: block;
+    align-content: center;
+    
+
+      }
+.nav > ul {
+    list-style: none;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+
+}      
+
+
+.nav > li {
+    display: inline-block;
+    padding:0 25px 0 25px;
+     
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: darkgray;
+    float: right;
+   
+    
+}
+
+.nav > li > a:hover {
+    color: teal
+}
+
+.logo {
+    color:darkgray;
+    background-color: "";
+    float: left;
+    padding:0px 25px 25px 25px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Arial', serif;
+    position:relative;
+    top:0;
+    left:0;
+    
+    
+   
+}
+
+.logo > a {
+    text-decoration: none;
+    color: #4aaaa5;
+    
+    margin: 0 auto;
+    padding: 0 auto;
+   
+}
+
+.content{
+    background-color: whitesmoke;
+    display: block;
+    padding: 20px;
+    text-align: left;
+   
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+
+img {
+    float: left; 
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    padding:20px;
+    
+}
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    background: whitesmoke;
+    height: 50px;
+    width:100%;
+    
+    padding: 20px;
+    border-top:3px solid #4aaaa5;
+    border-bottom: 3px solid darkgray;
+   
+}
+
+
+
+
+
+
+
+/* Styles for Contact Page */
+.container {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding:20px;
+    color: gray;
+    max-width: 960px;
+    margin: 0 auto;
+       
+        
+}
+
+.wrapper{
+    display: block;
+    max-width: 960px;
+    text-align: center;
+    margin-top:50px;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc ; 
+     
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color:#4aaaa5;
+    color: white;
+    padding:12px 20px;
+    cursor: pointer;
+    font-weight:bold;
+    font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+h1{
+    color: #4aaaa5;
+   
+    display: block;
+    padding: 10px;
+   background: whitesmoke;
+    max-width: 960px;
+    margin: 0 auto;
+    border-bottom:2px solid darkgray;
+    font-size: 32px;
+    
+    
+}
+
+
+ .portfolioPic {
+   width: 960px;
+     padding: 4px; 
+     background: whitesmoke; 
+     text-align: center;
+     
+    margin: 0 7px 14px 7px;
+}
+	 .portfolioPic p.btn {
+		margin: 0 auto;
+	}
+	 .portfolioPic p.btn a {
+        display: block; 
+        width: 200px; 
+        height: 200px; 
+        padding: 0 auto;
+		background:whitesmoke url(http://via.placeholder.com/200x200);
+		font-weight: bold; text-align: center; text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        margin:0 auto;
+        
+    }
+    
+    .contentP{
+        background-color: whitesmoke;
+        display: block;
+        
+        text-align: left;
+       
+        max-width: 960px;
+        margin: 0 auto;
+        
+        
+    }
+
