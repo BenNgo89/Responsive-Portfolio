@@ -1,62 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Benjamin's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css" />
-    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
+    <title>Responsive Portfolio</title>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+    <!-- "wrapper" div for sticky footer -->
+    <div class="wrapper">
 
-    <ul class="nav">
-        <div class="logo">
-            <a href="index.html">Benjamin Ngo</a>
-        </div>
-        <li><a href="index.html">About</a></li>|
-        <li><a href="portfolio.html">Portfolio</a></li>|
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-
-
-    <div class="content">
-        <h1>Portfolio</h1> <br>
-        <div class="contentP">
-            <div class="portfolioPic">
-
-                <a href="https://placeholder.com"><img src="" alt=""></a>
-                <p class="btn"><a href="index.html">See more</a></p>
-                <br><a href="https://placeholder.com"><img src="" alt=""></a>
-                <p class="btn"><a href="index.html">See more</a></p>
-
-
-
-
-
+        <header>
+            <div id="header_block">
+                <div id="header_name_text_block">
+                    <h1 id="header_name_text">Benjamin Ngo</h1>
+                </div>
+                <nav>
+                    <div class="nav_link">
+                        <p><a href="index.html">About</a></p>
+                    </div>
+                    <div class="nav_vertical_bar"></div>
+                    <div class="nav_link">
+                        <p><a href="portfolio.html">Portfolio</a></p>
+                    </div>
+                    <div class="nav_vertical_bar"></div>
+                    <div class="nav_link">
+                        <p><a href="contact.html">Contact</a></p>
+                    </div>
+                </nav>
             </div>
+        </header>
+
+        <div id="main_block">
+            <section>
+                <h2>Portfolio</h2>
+                <div id="section_grey_line"></div>
+
+                <div id="portfolio_pic_block">
+                    <div class="portfolio_pic">
+                        <a href="#">
+                            <div class="portfolio_pic_text_block">Example 1</div>
+                        </a>
+                        <img src="http://via.placeholder.com/200x200" alt="Example1">
+                    </div>
+                    <div class="portfolio_pic">
+                        <a href="#">
+                            <div class="portfolio_pic_text_block">Example 2</div>
+                        </a>
+                        <img src="http://via.placeholder.com/200x200" alt="Example2">
+                    </div>
+                    <div class="portfolio_pic">
+                        <a href="#">
+                            <div class="portfolio_pic_text_block">Example 3</div>
+                        </a>
+                        <img src="http://via.placeholder.com/200x200" alt="Example3">
+                    </div>
+                    <div class="portfolio_pic">
+                        <a href="#">
+                            <div class="portfolio_pic_text_block">Example 4</div>
+                        </a>
+                        <img src="http://via.placeholder.com/200x200" alt="Example4">
+                    </div>
+                    <div class="portfolio_pic">
+                        <a href="#">
+                            <div class="portfolio_pic_text_block">Example 5</div>
+                        </a>
+                        <img src="http://via.placeholder.com/200x200" alt="Example5">
+                    </div>
+                    <div class="portfolio_pic">
+                        <a href="#">
+                            <div class="portfolio_pic_text_block">Example 6</div>
+                        </a>
+                        <img src="http://via.placeholder.com/200x200" alt="Example6">
+                    </div>
+                </div>
+            </section>
+
+
         </div>
 
-
-
-
-
+        <!-- "push" div for sticky footer -->
+        <div class="push"></div>
     </div>
 
-
-
-
-    </div>
-
-
-    <footer id="footer">
-
+    <footer>
+        <div id="footer_text">&copy; Copyright 2019 Benjamin Ngo</div>
     </footer>
-
-
 </body>
 
 </html>

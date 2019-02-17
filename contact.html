@@ -1,58 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Benjamin's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Responsive Portfolio</title>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-
-
 <body>
+    <!-- "wrapper" div for sticky footer -->
+    <div class="wrapper">
 
-    <ul class="nav">
-        <div class="logo">
-            <a href="index.html">Benjamin Ngo</a>
+        <header>
+            <div id="header_block">
+                <div id="header_name_text_block">
+                    <h1 id="header_name_text">Benjamin Ngo</h1>
+                </div>
+                <nav>
+                    <div class="nav_link">
+                        <p><a href="index.html">About</a></p>
+                    </div>
+                    <div class="nav_vertical_bar"></div>
+                    <div class="nav_link">
+                        <p><a href="portfolio.html">Portfolio</a></p>
+                    </div>
+                    <div class="nav_vertical_bar"></div>
+                    <div class="nav_link">
+                        <p><a href="contact.html">Contact</a></p>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div id="main_block">
+            <section>
+                <h2>Contact</h2>
+                <div id="section_grey_line"></div>
+
+                <form>
+                    <label>Name</label><br />
+                    <input type="text" name="name" value="John Smith"><br /><br />
+
+                    <label>Email</label><br />
+                    <input type="email" name="email" value="example@gmail.com"><br /><br />
+
+                    <label>Message</label><br />
+                    <textarea name="message"></textarea><br />
+
+                    <div id="submit_button"><input type="submit" value="Submit"></div>
+                </form>
+            </section>
+
+
         </div>
-        <li><a href="index.html">About</a></li>|
-        <li><a href="portfolio.html">Portfolio</a></li>|
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <div class="content">
 
-        <section class="Contact">
-            <h1>Contact</h1>
-        </section>
-    </div>
-    <div class="container">
-        <form action="action_page.php">
-
-            <label for="name">Name</label>
-            <input type="text" id="fname" "name=user_email" placeholder="John Doe">
-
-            <label for="email"> E-mail </label>
-            <input type="text" id="Email" Email=Email" placeholder="Something@someplace.com">
-
-            <label for="Message">Message</label>
-            <textarea id="Message" name="user_message" style="height:180px"></textarea>
-
-            <input type="submit">
-
-
-        </form>
+        <!-- "push" div for sticky footer -->
+        <div class="push"></div>
     </div>
 
-    </div>
-
-    <footer id="footer">
-
-        </div>
+    <footer>
+        <div id="footer_text">&copy; Copyright 22019 Benjamin Ngo</div>
     </footer>
-
-
 </body>
 
 </html>
